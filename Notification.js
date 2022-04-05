@@ -15,7 +15,7 @@ function sleep(ms) {
             }
         }
     }
-    function Noti("this is a test", "lol") {
+    function Noti(text, title) {
         let element = document.createElement('div');
         element.innerHTML = `<div id="notification"><link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet"><style>.rectangle{color: black; height:100px;width:300px;background-color:rgba(128,128,128,.5);bottom:0;right:0;position:absolute}.w3-hover-light-gray:hover,.w3-hover-light-grey:hover,.w3-light-gray,.w3-light-grey{color:#000!important;background-color:#f1f1f1!important}.w3-green,.w3-hover-green:hover{color:#fff!important;background-color:#7F7F7F!important}</style><div class="rectangle"><div id="title" style="color:#000;text-align:center;font-size:1.6rem;font-family:'Comic Neue'"></div><div id="message" style="color:#000;font-family:'Comic Neue'"></div><div class="w3-light-grey"><div id="myTimer" class="w3-green" style="height:5px;width:0;bottom:0;right:0;position:absolute"></div></div></div></div>`
         document.body.appendChild(element);
